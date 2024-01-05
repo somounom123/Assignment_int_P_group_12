@@ -176,14 +176,14 @@
         </tr>
         <tr>
             <td>
-                <div class="container-fluid bg-success text-white slide">
-                    <div class="p-5">
+                <div class="container-fluid text-white bg-success slide">
+                    <div class="p-5 banner-text">
                         <h1>Early Bird Sales Pre-Launch</h1>
                         <h1 class="bolder">TIME SQUARE 302</h1>
                         <h1>Cambodia's #1 Address, BKK1</h1>
                         <br>
                         <h1>Starting From $80,000</h1>
-                        <hr>
+                        <hr class="line-primary">
                         <button class="btn-view-more">
                             <h2>LEARN MORE</h2>
                         </button>
@@ -217,6 +217,34 @@
                         </div>
                     </center>
                 </div>
+                <div class="container banner-slide">
+                    <div class="card-modal">
+                        <h2>Find Cambodia Real Estate</h2>
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off"
+                                checked>
+                            <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+
+                            <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                            <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+                        </div>
+                        <div class="mt-3 w-100">
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="fa fa-bars"></i>
+                                </span>
+                                <input type="text" class="form-control" placeholder="Locations, Project, or agency name"
+                                    aria-label="Search">
+                                <button class="btn btn-outline-secondary" type="button">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </td>
         </tr>
         <tr>
@@ -224,225 +252,175 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">Popular Locations</h4>
                     <div class="card-container">
-                        <button id="prevBtn" class="circle chevron-left"><i class="fa fa-chevron-left"></i></button>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/phnom-penh.jpg" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Phnom Penh</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/phnom-penh.jpg" alt="Your Image">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <div class="d-flex flex-column justify-content-center h-100">
+                                            <h3 class="card-title text-center text-white">Phnom Penh</h3>
+                                        </div>
+                                        <div class="card-footer dark-footer text-white text-center">
+                                            <div class="d-flex justify-content-around">
+                                                <small>Sale: 7k</small>
+                                                <small>Rent: 27k</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/chamkarmorn.webp" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Chamkarmon</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 1k</small>
-                                            <small>Rent: 16k</small>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/chamkarmorn.webp" alt="Your Image">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <div class="d-flex flex-column justify-content-center h-100">
+                                            <h3 class="card-title text-center text-white">Chamkarmon</h3>
+                                        </div>
+                                        <div class="card-footer dark-footer text-white text-center">
+                                            <div class="d-flex justify-content-around">
+                                                <small>Sale: 1k</small>
+                                                <small>Rent: 16k</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/dunpenh.webp" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Daun Penh</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/dunpenh.webp" alt="Your Image">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <div class="d-flex flex-column justify-content-center h-100">
+                                            <h3 class="card-title text-center text-white">Daun Penh</h3>
+                                        </div>
+                                        <div class="card-footer dark-footer text-white text-center">
+                                            <div class="d-flex justify-content-around">
+                                                <small>Sale: 7k</small>
+                                                <small>Rent: 27k</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/bkk1.webp" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">BKK 1</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/sihanu.jpg" alt="Your Image">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <div class="d-flex flex-column justify-content-center h-100">
+                                            <h3 class="card-title text-center text-white">Sihanoukville</h3>
+                                        </div>
+                                        <div class="card-footer dark-footer text-white text-center">
+                                            <div class="d-flex justify-content-around">
+                                                <small>Sale: 7k</small>
+                                                <small>Rent: 27k</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/russia.webp" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Russian Market</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/kampot.jpg" alt="Your Image">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <div class="d-flex flex-column justify-content-center h-100">
+                                            <h3 class="card-title text-center text-white">Kampot</h3>
+                                        </div>
+                                        <div class="card-footer dark-footer text-white text-center">
+                                            <div class="d-flex justify-content-around">
+                                                <small>Sale: 7k</small>
+                                                <small>Rent: 27k</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/russia.webp" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Russian Market</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/siemreab.jpg" alt="Your Image">
+                                    <div class="card-img-overlay d-flex flex-column justify-content-between">
+                                        <div class="d-flex flex-column justify-content-center h-100">
+                                            <h3 class="card-title text-center text-white">Siem Reap</h3>
+                                        </div>
+                                        <div class="card-footer dark-footer text-white text-center">
+                                            <div class="d-flex justify-content-around">
+                                                <small>Sale: 7k</small>
+                                                <small>Rent: 27k</small>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
+
                         </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/sihanu.jpg" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Sihanoukville</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/kampot.jpg" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Kampot</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/siemreab.jpg" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Siem Reap</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-1 m-0 location-card">
-                            <div class="card">
-                                <img src="images/home/batambang.jpg" alt="Your Image">
-                                <div class="card-img-overlay d-flex flex-column justify-content-between">
-                                    <div class="d-flex flex-column justify-content-center h-100">
-                                        <h3 class="card-title text-center text-white">Battambang</h3>
-                                    </div>
-                                    <div class="card-footer dark-footer text-white text-center">
-                                        <div class="d-flex justify-content-around">
-                                            <small>Sale: 7k</small>
-                                            <small>Rent: 27k</small>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <button id="nextBtn" class="circle chevron-right"><i class="fa fa-chevron-right"></i></button>
                     </div>
                 </div>
                 <div class="container mt-5">
                     <h4 class="mt-3">Featured New Developments</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -454,58 +432,71 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">Featured Serviced Apartments</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -517,58 +508,71 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">Featured Boreys</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -580,58 +584,71 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">Lastest Properties for Sale</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/vue-aston.jpg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vue-aston.jpg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -643,58 +660,71 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">Lastest Properties for Rent</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card h-50">
-                                <img src="images/home/vila.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/vila.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card card h-50">
-                                <img src="images/home/vila.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card card">
+                                    <img src="images/home/vila.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card card h-50">
-                                <img src="images/home/house.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card card">
+                                    <img src="images/home/vila.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card card h-50">
-                                <img src="images/home/qvila.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card card">
+                                    <img src="images/home/house.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card card h-50">
-                                <img src="images/home/qvila2.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card card">
+                                    <img src="images/home/qvila.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card card">
+                                    <img src="images/home/qvila2.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -706,58 +736,71 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">Properties for Sale Under Market Value</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/income.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/income.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/ro.webp" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/income.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/2bed.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/ro.webp" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/urgentsale.webp" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/2bed.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <img src="images/home/urgentsale1.jpeg" class="card-img-top">
-                                <div class="card-body p-2">
-                                    <b>Vue Aston</b>
-                                    <br>
-                                    <span class="card-description">Price from: $71,420</span><br>
-                                    <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/urgentsale.webp" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <img src="images/home/urgentsale1.jpeg" class="card-img-top">
+                                    <div class="card-body p-2">
+                                        <b>Vue Aston</b>
+                                        <br>
+                                        <span class="card-description">Price from: $71,420</span><br>
+                                        <span class="card-description">Nirouth, Chbar Ampov, Phnom Penh</span>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -769,126 +812,161 @@
                 <div class="container mt-5">
                     <h4 class="mt-3">What property seekers say about us</h4>
                     <div class="card-container">
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <center>
-                                    <img src="images/home/s.png" class="rounded-circle mt-2" width="90px"
-                                        alt="Avatar" />
-                                    <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
-                                </center>
-                                <div class="card-body p-2">
-                                    <p class="mb-0">
-                                        Special thanks for Marielle, the experienced and skillful real estate agent in
-                                        Cambodia. She accurately understands the needs of mine as the investor and
-                                        provided valuable some thing more...
-                                    </p>
-                                    <div class="d-flex justify-content-around">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
+                        <div class="row d-flex justify-content-center">
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <center>
+                                        <img src="images/home/s.png" class="rounded-circle mt-2" width="90px"
+                                            alt="Avatar" />
+                                        <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
+                                    </center>
+                                    <div class="card-body p-2">
+                                        <p class="mb-0 hidden-lg">
+                                            Special thanks for Marielle, the experienced and skillful real estate agent
+                                            in
+                                            Cambodia. She accurately understands the needs of mine as the investor and
+                                            provided valuable some thing more...
+                                        </p>
+                                        <div class="d-flex justify-content-around stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="d-flex justify-content-end mt-2 mb-0">2 weeks ago</p>
                                     </div>
-                                    <p class="d-flex justify-content-end mt-2 mb-0">2 weeks ago</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <center>
+                                        <img src="images/home/s.png" class="rounded-circle mt-2" width="90px"
+                                            alt="Avatar" />
+                                        <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
+                                    </center>
+                                    <div class="card-body p-2">
+                                        <p class="mb-0 hidden-lg">
+                                            Special thanks for Marielle, the experienced and skillful real estate agent
+                                            in
+                                            Cambodia. She accurately understands the needs of mine as the investor and
+                                            provided valuable some thing more...
+                                        </p>
+                                        <div class="d-flex justify-content-around stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="d-flex justify-content-end mt-2 mb-0">2 weeks ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <center>
+                                        <img src="images/home/armi.png" class="rounded-circle mt-2" width="90px"
+                                            alt="Avatar" />
+                                        <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
+                                    </center>
+                                    <div class="card-body p-2">
+                                        <p class="mb-0 hidden-lg">
+                                            Thanks to Ms. Voleap now I own two apartments in Phnom Penh! And she was so
+                                            helpful to sell my 3rd unit Apartment with the reasonable price! Me & my
+                                            family
+                                            are so satisfied with her...
+                                        </p>
+                                        <div class="d-flex justify-content-around stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="d-flex justify-content-end mt-2 mb-0">a month ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <center>
+                                        <img src="images/home/carminea.png" class="rounded-circle mt-2" width="90px"
+                                            alt="Avatar" />
+                                        <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
+                                    </center>
+                                    <div class="card-body p-2">
+                                        <p class="mb-0 hidden-lg">
+                                            Really friendly staff and workers overall. They try to help you find the
+                                            best
+                                            place for your price point and will negotiate in your favor as much as they
+                                            can.
+                                            Would recommend to new foreigners...
+                                        </p>
+                                        <div class="d-flex justify-content-around stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="d-flex justify-content-end mt-2 mb-0">a weeks ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <center>
+                                        <img src="images/home/d.png" class="rounded-circle mt-2" width="90px"
+                                            alt="Avatar" />
+                                        <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
+                                    </center>
+                                    <div class="card-body p-2">
+                                        <p class="mb-0 hidden-lg">
+                                            I have been working with Sophie on some real estate investments for almost a
+                                            year now. She has always been professional and prompt to respond to my
+                                            needs. I
+                                            have had many questions, as...
+                                        </p>
+                                        <div class="d-flex justify-content-around stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="d-flex justify-content-end mt-2 mb-0">2 months ago</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-2 col-md-3 col-sm-4 col-6 mt-4">
+                                <div class="card">
+                                    <center>
+                                        <img src="images/home/linda.png" class="rounded-circle mt-2" width="90px"
+                                            alt="Avatar" />
+                                        <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
+                                    </center>
+                                    <div class="card-body p-2">
+                                        <p class="mb-0 hidden-lg">
+                                            Marielle Manaois is your go to agent if you are looking to buy, sell, or
+                                            rent
+                                            real estate in Phnom Penh. I recently purchased a property with her
+                                            assistance
+                                            and I can tell you that she is AMAZING...
+                                        </p>
+                                        <div class="d-flex justify-content-around stars">
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                            <i class="fa fa-star"></i>
+                                        </div>
+                                        <p class="d-flex justify-content-end mt-2 mb-0">a month ago</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <center>
-                                    <img src="images/home/armi.png" class="rounded-circle mt-2" width="90px"
-                                        alt="Avatar" />
-                                    <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
-                                </center>
-                                <div class="card-body p-2">
-                                    <p class="mb-0">
-                                        Thanks to Ms. Voleap now I own two apartments in Phnom Penh! And she was so
-                                        helpful to sell my 3rd unit Apartment with the reasonable price! Me & my family
-                                        are so satisfied with her...
-                                    </p>
-                                    <div class="d-flex justify-content-around">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <p class="d-flex justify-content-end mt-2 mb-0">a month ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <center>
-                                    <img src="images/home/carminea.png" class="rounded-circle mt-2" width="90px"
-                                        alt="Avatar" />
-                                    <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
-                                </center>
-                                <div class="card-body p-2">
-                                    <p class="mb-0">
-                                        Really friendly staff and workers overall. They try to help you find the best
-                                        place for your price point and will negotiate in your favor as much as they can.
-                                        Would recommend to new foreigners...
-                                    </p>
-                                    <div class="d-flex justify-content-around">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <p class="d-flex justify-content-end mt-2 mb-0">a weeks ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <center>
-                                    <img src="images/home/d.png" class="rounded-circle mt-2" width="90px"
-                                        alt="Avatar" />
-                                    <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
-                                </center>
-                                <div class="card-body p-2">
-                                    <p class="mb-0">
-                                        I have been working with Sophie on some real estate investments for almost a
-                                        year now. She has always been professional and prompt to respond to my needs. I
-                                        have had many questions, as...
-                                    </p>
-                                    <div class="d-flex justify-content-around">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <p class="d-flex justify-content-end mt-2 mb-0">2 months ago</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-1 m-0 development-card">
-                            <div class="card">
-                                <center>
-                                    <img src="images/home/linda.png" class="rounded-circle mt-2" width="90px"
-                                        alt="Avatar" />
-                                    <p class="mt-2 mb-0"><b>Sekiya Tomohiro</b></p>
-                                </center>
-                                <div class="card-body p-2">
-                                    <p class="mb-0">
-                                        Marielle Manaois is your go to agent if you are looking to buy, sell, or rent
-                                        real estate in Phnom Penh. I recently purchased a property with her assistance
-                                        and I can tell you that she is AMAZING...
-                                    </p>
-                                    <div class="d-flex justify-content-around">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <p class="d-flex justify-content-end mt-2 mb-0">a month ago</p>
-                                </div>
-                            </div>
-                        </div>
+
                     </div>
                     <div class="d-flex justify-content-center mt-3">
                         <button class="btn-view-more">View More</button>
@@ -897,72 +975,304 @@
             </td>
         </tr>
         <tr>
-            <td class="footer">
-                <h2>Footer</h2>
+            <td>
+                <div class="container mt-5">
+                    <h4 class="mt-3">News & Guides</h4>
+                    <div>
+                        <div class="row d-flex flex-column">
+                            <div class="col-lg-12 col-xl-6 mt-2">
+                                <div class="card">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="./images/home/vue-aston.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <p>Buying Condos Off-Plan In Sihanoukville - What To Know</p>
+                                                <br>
+                                                <p><small class="text-muted">November 24, 2023, 12:17 p.m.</small></p>
+                                                <br>
+                                                <p class="hidden-lg">Recently we discussed some of the key themes around
+                                                    Sihanoukville and
+                                                    why there is a dual governm...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6 mt-2">
+                                <div class="card">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="./images/home/vue-aston.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <p>Buying Condos Off-Plan In Sihanoukville - What To Know</p>
+                                                <br>
+                                                <p><small class="text-muted">November 24, 2023, 12:17 p.m.</small></p>
+                                                <br>
+                                                <p class="hidden-lg">Recently we discussed some of the key themes around
+                                                    Sihanoukville and
+                                                    why there is a dual governm...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6 mt-2">
+                                <div class="card">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="./images/home/vue-aston.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <p>Buying Condos Off-Plan In Sihanoukville - What To Know</p>
+                                                <br>
+                                                <p><small class="text-muted">November 24, 2023, 12:17 p.m.</small></p>
+                                                <br>
+                                                <p class="hidden-lg">Recently we discussed some of the key themes around
+                                                    Sihanoukville and
+                                                    why there is a dual governm...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-3 col-lg-12 col-xl-6">
+                            <button class="btn-view-more">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="container mt-5">
+                    <h4 class="mt-3">Realestate.com.kh TV</h4>
+                    <div>
+                        <div class="row d-flex flex-column">
+                            <div class="col-lg-12 col-xl-6 mt-2">
+                                <div class="card">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="./images/home/vue-aston.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <p>Buying Condos Off-Plan In Sihanoukville - What To Know</p>
+                                                <br>
+                                                <p><small class="text-muted">November 24, 2023, 12:17 p.m.</small></p>
+                                                <br>
+                                                <p class="hidden-lg">Recently we discussed some of the key themes around
+                                                    Sihanoukville and
+                                                    why there is a dual governm...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6 mt-2">
+                                <div class="card">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="./images/home/vue-aston.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <p>Buying Condos Off-Plan In Sihanoukville - What To Know</p>
+                                                <br>
+                                                <p><small class="text-muted">November 24, 2023, 12:17 p.m.</small></p>
+                                                <br>
+                                                <p class="hidden-lg">Recently we discussed some of the key themes around
+                                                    Sihanoukville and
+                                                    why there is a dual governm...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 col-xl-6 mt-2">
+                                <div class="card">
+                                    <div class="row g-0">
+                                        <div class="col-4">
+                                            <img src="./images/home/vue-aston.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="card-body">
+                                                <p>Buying Condos Off-Plan In Sihanoukville - What To Know</p>
+                                                <br>
+                                                <p><small class="text-muted">November 24, 2023, 12:17 p.m.</small></p>
+                                                <br>
+                                                <p class="hidden-lg">Recently we discussed some of the key themes around
+                                                    Sihanoukville and
+                                                    why there is a dual governm...</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center mt-3 col-lg-12 col-xl-6">
+                            <button class="btn-view-more">View More</button>
+                        </div>
+                    </div>
+                </div>
+            </td>
+        </tr>
+        <tr class="bg-gray">
+            <td class="footer border-bottom">
+                <div class="btn-group first-step mb-0" role="footer" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="footer" id="sale" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="sale">Real Estate for sale</label>
+
+                    <input type="radio" class="btn-check" name="footer" id="rent" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="rent">Real Estate for rent</label>
+                </div>
+            </td>
+            <td class="footer border-bottom">
+                <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                    <input type="radio" class="btn-check" name="estate" id="real" autocomplete="off" checked>
+                    <label class="btn btn-outline-primary" for="real">Real estate</label>
+
+                    <input type="radio" class="btn-check" name="estate" id="villa" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="villa">Villa & House</label>
+
+                    <input type="radio" class="btn-check" name="estate" id="apartment" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="apartment">Apartment</label>
+
+                    <input type="radio" class="btn-check" name="estate" id="borey" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="borey">Boreys</label>
+
+                    <input type="radio" class="btn-check" name="estate" id="land" autocomplete="off">
+                    <label class="btn btn-outline-primary" for="land">Land</label>
+                </div>
+            </td>
+            <td class="footer border-bottom d-flex flex-wrap">
+                <div class="row w-100">
+                    <div class="col-4">
+                        <div class="mx-4 mt-4">
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mx-4 mt-4">
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1">
+                                    Rent
+                                </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="mx-4 mt-4">
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                            <p class="d-flex"><span class="textToReplace mx-1"> Real Estate </span> for <span
+                                    class="rentText mx-1"> Rent </span> <span class="saleText mx-1"> Sale </span> in
+                                Chroy Changvar</p>
+                        </div>
+                    </div>
+                </div>
             </td>
         </tr>
     </table>
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        const saleRadio = document.getElementById('sale');
+        const rentRadio = document.getElementById('rent');
+
+        const realRadio = document.getElementById('real');
+        const villaRadio = document.getElementById('villa');
+        const boreyRadio = document.getElementById('borey');
+        const landRadio = document.getElementById('land');
+        const apartmentRadio = document.getElementById('apartment');
+
+        const saleTexts = document.querySelectorAll('.saleText');
+        const rentTexts = document.querySelectorAll('.rentText');
+
+        const textToReplace = document.querySelectorAll('.textToReplace');
+
+        function saleOrRentText(firstTexts, secondTexts) {
+            firstTexts.forEach((firstText, index) => {
+                firstText.style.display = 'block';
+                [...secondTexts][index].style.display = 'none';
+            });
+        }
+
+        function addText(text, doms) {
+            // doms.textContent = text
+            doms.forEach((dom, index) => {
+                dom.textContent = text
+            });
+        }
+
+        saleOrRentText(saleTexts, rentTexts)
+
+        saleRadio.addEventListener('click', function () {
+            saleOrRentText(saleTexts, rentTexts)
+        });
+
+        rentRadio.addEventListener('click', function () {
+            saleOrRentText(rentTexts, saleTexts)
+        });
+
+        realRadio.addEventListener('click', function () {
+            addText('Real Estate', textToReplace)
+        });
+        villaRadio.addEventListener('click', function () {
+            addText('Valla', textToReplace)
+        });
+        boreyRadio.addEventListener('click', function () {
+            addText('Borey', textToReplace)
+        });
+        landRadio.addEventListener('click', function () {
+            addText('Land', textToReplace)
+        });
+        apartmentRadio.addEventListener('click', function () {
+            addText('Apartment', textToReplace)
+        });
+    </script>
 </body>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-        const cards = document.querySelectorAll(".location-card");
-        const prevBtn = document.getElementById("prevBtn");
-        const nextBtn = document.getElementById("nextBtn");
-
-        const cardsPerPage = 5;
-        const totalCards = cards.length;
-        let currentPage = 0;
-        const totalPages = Math.ceil(totalCards / cardsPerPage);
-
-        function showPage(page) {
-            const start = page * cardsPerPage;
-            let end = start + cardsPerPage;
-
-            if (end > totalCards) {
-                end = totalCards;
-            }
-
-            for (let i = 0; i < totalCards; i++) {
-                if (i >= start && i < end) {
-                    cards[i].style.display = "block";
-                } else {
-                    cards[i].style.display = "none";
-                }
-            }
-        }
-
-        function goToPrevPage() {
-            if (currentPage > 0) {
-                currentPage--;
-                showPage(currentPage);
-            }
-        }
-
-        function goToNextPage() {
-            if (currentPage < totalPages - 1) {
-                currentPage++;
-                showPage(currentPage);
-            } else {
-                const remainingCards = totalCards % cardsPerPage;
-                if (remainingCards > 0) {
-                    // Display remaining cards on the last page
-                    cardsPerPage = remainingCards;
-                    showPage(currentPage);
-                }
-            }
-        }
-
-        // Initially show the first page
-        showPage(currentPage);
-
-        // Event listeners for previous and next buttons
-        //prevBtn.addEventListener("click", goToPrevPage);
-        //nextBtn.addEventListener("click", goToNextPage);
-    });
-
-</script>
 
 </html>
